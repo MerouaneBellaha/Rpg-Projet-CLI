@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CBEC25BA243CA43E001F4302 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC25B9243CA43E001F4302 /* main.swift */; };
+		CBEC25C1243CA479001F4302 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC25C0243CA479001F4302 /* Game.swift */; };
+		CBEC25C9243CA4D5001F4302 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC25C8243CA4D5001F4302 /* Player.swift */; };
+		CBEC25CC243CA52E001F4302 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC25CB243CA52E001F4302 /* Character.swift */; };
+		CBEC25CE243CA536001F4302 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC25CD243CA536001F4302 /* Weapon.swift */; };
+		CBEC25D1243CA551001F4302 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC25D0243CA550001F4302 /* Text.swift */; };
+		CBEC25D3243CA570001F4302 /* String + TrimWhiteSpaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC25D2243CA570001F4302 /* String + TrimWhiteSpaces.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		CBEC25B6243CA43E001F4302 /* RpgProjectCli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RpgProjectCli; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEC25B9243CA43E001F4302 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CBEC25C0243CA479001F4302 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		CBEC25C8243CA4D5001F4302 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		CBEC25CB243CA52E001F4302 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		CBEC25CD243CA536001F4302 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		CBEC25D0243CA550001F4302 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		CBEC25D2243CA570001F4302 /* String + TrimWhiteSpaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + TrimWhiteSpaces.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,62 @@
 			isa = PBXGroup;
 			children = (
 				CBEC25B9243CA43E001F4302 /* main.swift */,
+				CBEC25C2243CA47E001F4302 /* Game */,
+				CBEC25C3243CA488001F4302 /* Player */,
+				CBEC25C4243CA4A0001F4302 /* Character */,
+				CBEC25C5243CA4A6001F4302 /* Weapon */,
+				CBEC25C6243CA4AB001F4302 /* Text */,
+				CBEC25C7243CA4B1001F4302 /* Extension */,
 			);
 			path = RpgProjectCli;
+			sourceTree = "<group>";
+		};
+		CBEC25C2243CA47E001F4302 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				CBEC25C0243CA479001F4302 /* Game.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		CBEC25C3243CA488001F4302 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				CBEC25C8243CA4D5001F4302 /* Player.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		CBEC25C4243CA4A0001F4302 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				CBEC25CB243CA52E001F4302 /* Character.swift */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		CBEC25C5243CA4A6001F4302 /* Weapon */ = {
+			isa = PBXGroup;
+			children = (
+				CBEC25CD243CA536001F4302 /* Weapon.swift */,
+			);
+			path = Weapon;
+			sourceTree = "<group>";
+		};
+		CBEC25C6243CA4AB001F4302 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				CBEC25D0243CA550001F4302 /* Text.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		CBEC25C7243CA4B1001F4302 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CBEC25D2243CA570001F4302 /* String + TrimWhiteSpaces.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +186,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEC25CE243CA536001F4302 /* Weapon.swift in Sources */,
 				CBEC25BA243CA43E001F4302 /* main.swift in Sources */,
+				CBEC25C9243CA4D5001F4302 /* Player.swift in Sources */,
+				CBEC25C1243CA479001F4302 /* Game.swift in Sources */,
+				CBEC25D1243CA551001F4302 /* Text.swift in Sources */,
+				CBEC25CC243CA52E001F4302 /* Character.swift in Sources */,
+				CBEC25D3243CA570001F4302 /* String + TrimWhiteSpaces.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
