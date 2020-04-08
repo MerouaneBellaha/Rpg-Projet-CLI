@@ -22,9 +22,11 @@ Here are the constraints:
 
 I did a little bit more than what was asked :
 
-  1. You can set as many players and as many characters as you want, the game still work the same way.
+  1. You can set as many players ( 2..* ) and as many characters ( 1..* )as you want, the game still work the same way.
 
   2. Player have to choose their name too. 
 
   3. Re-play functionality.
-
+  
+  4. An UML class diagram. (../Architecture.pdf)
+     
