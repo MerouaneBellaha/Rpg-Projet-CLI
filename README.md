@@ -13,7 +13,7 @@ Here are the constraints:
   Then choose his target (from his team if it's a heal, from opponant team if it's an attack).  
   Realise the action. Check if the game is over, otherwise it's player 2 turn.
 
-  4. When game is over (all characters fromm all opponants are dead), display the winner and some game statistics.
+  4. When game is over (all characters from all opponants are dead), display the winner and some game statistics.
 
   5. The game is composed of 2 players. Each players have a team of 3 characters.  
   Characters must have health points, a name and a weapon.  
